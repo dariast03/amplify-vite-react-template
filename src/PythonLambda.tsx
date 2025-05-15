@@ -2,7 +2,7 @@
 import JsonView from '@uiw/react-json-view';
 import { post } from 'aws-amplify/api';
 import { fetchAuthSession } from 'aws-amplify/auth';
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const PythonLambdaProtectedAuth = () => {
   const [lambdaExternalResponse, setLambdaExternalResponse] =
