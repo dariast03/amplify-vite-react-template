@@ -90,6 +90,7 @@ function App() {
 
       <button onClick={signOut}>Sign out</button>
       <button onClick={handleTestApi}>TEST LAMBDA API</button>
+      <button onClick={handleExternalAuthTestApi}>TEST LAMBDA EXTERNAL</button>
       {/* Display the response from the test lambda API */}
       <div
         id='lambda-response'
